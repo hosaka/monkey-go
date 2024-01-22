@@ -103,7 +103,7 @@ func TestNextToken(t *testing.T) {
 		{token.RBRACE, "}"},
 
 		{token.INT, "10"},
-		{token.EQ, "=="},
+		{token.EQL, "=="},
 		{token.INT, "10"},
 		{token.SEMICOLON, ";"},
 		{token.INT, "10"},

@@ -24,7 +24,7 @@ const (
 	SLASH    = "/"
 	LT       = "<"
 	GT       = ">"
-	EQ       = "=="
+	EQL      = "=="
 	NEQ      = "!="
 
 	// delimeters

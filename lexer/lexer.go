@@ -47,7 +47,7 @@ func (l *Lexer) NextToken() token.Token {
 			char := l.char
 			l.readChar()
 			literal := string(char) + string(l.char)
-			tok = token.Token{Type: token.EQ, Literal: literal}
+			tok = token.Token{Type: token.EQL, Literal: literal}
 		} else {
 			tok = newToken(token.ASSIGN, l.char)
 		}
